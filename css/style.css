@@ -3800,7 +3800,14 @@ textarea.form-input {
 .blackcolor {
     color: #000;
 }
-
+.animated-post {
+	transition: transform 0.5s ease;
+  }
+  
+  .animated-post:hover {
+	transform: translateY(-20px); /* Adjust the value as needed */
+  }
+  
 .thumb-elegant {
 	display: block;
 	position: relative;
