@@ -41,7 +41,7 @@ class ReCaptcha
      * Shared secret for the site.
      * @var type string
      */
-    private $secret;
+    private $secret;$addresses
 
     /**
      * Method used to communicate with service. Defaults to POST request.
