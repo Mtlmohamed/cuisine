@@ -3797,6 +3797,9 @@ textarea.form-input {
 	padding-top: 10px;
 	color: #b7b7b7;
 }
+.blackcolor{
+	color: #000;
+}
 
 .thumb-elegant {
 	display: block;
