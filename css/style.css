@@ -203,7 +203,28 @@ p [data-toggle='tooltip'] {
 	margin-left: .12em;
 	margin-right: .12em;
 }
-
+.image-slider {
+	width: 100%;
+	height: auto;
+	white-space: nowrap;
+	overflow: hidden;
+  }
+  
+  .image-slide {
+	display: inline-block;
+	width: 100%;
+	animation: slideRightToLeft 10s linear infinite;
+  }
+  
+  @keyframes slideRightToLeft {
+	0% {
+	  transform: translateX(100%);
+	}
+	100% {
+	  transform: translateX(-100%);
+	}
+  }
+  
 /*
 *
 * Typography
@@ -5417,6 +5438,7 @@ html:not(.mobile):not(.tablet) .thumb-chloe:hover .thumb-chloe__caption {
 		margin-top: 27px;
 	}
 }
+
 
 ul.post__tags {
 	font-size: 11px;
